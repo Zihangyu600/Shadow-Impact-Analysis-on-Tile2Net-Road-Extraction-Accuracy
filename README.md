@@ -135,6 +135,8 @@ x1 = 154359 #the x coord from first picture in tiles
 x2 = 154406 #the x coord from last picture in tiles
 y1 = 197062 #the y coord from first picture in tiles
 y2 = 197125 #the y coord from last picture in tiles
+#input in line 83 change your own dir and copy it to tile2net function below
+output_png = f"D:/data/outputdir/new york/segmentation/new york/256_19_8/19/{x}_{y}.png"  
 ```
 
 ### 5. Total Accuracy Evaluator (`scripts/calculate_total_accuracy.py`)
