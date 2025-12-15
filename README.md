@@ -113,10 +113,8 @@ raster.inference()
 Converts Tile2Net's four-class output (roads, crosswalks, sidewalks, background) to a three-class system by merging crosswalks into road category.
 
 ```python
-from src.core.semantic_normalizer import SemanticNormalizer
-
-normalizer = SemanticNormalizer(target_color="#008000")
-normalized_image = normalizer.normalize(tile2net_output)
+input_folder = r"\seg_results"  # tile2net seg result
+output_folder = r"\output"  # output dir
 ```
 
 ### 3. Shadow Detector (`scripts/shadow_detector.py`)
