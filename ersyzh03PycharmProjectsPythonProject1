@@ -1,0 +1,16 @@
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.interactive=true
+color.ui=auto
+help.format=html
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=helper-selector
+user.email=zy3493@nyu.edu
+user.name=Zihangyu600
+credential.helperselector.selected=manager
